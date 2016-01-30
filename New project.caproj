@@ -182,18 +182,87 @@
         <object-type name="BotonInicio" sid="2723037302628458">
             <plugin id="Button" />
         </object-type>
+        <object-type name="Sprite" sid="3947748098883484">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9603997615938159" speed="5">
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.5" original-source="C:\Users\Esteban\Desktop\Consejos-para-decorar-un-pasillo-pequeño.bmp" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="9310092188744544">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1402887415000568" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Esteban\Desktop\maria-armas-decoracion-pasillo-640x560x80.bmp" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flecha4" sid="5049173546418359">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5590570359933126" speed="5">
+                    <frame duration="1" hotspotX="0.501176" hotspotY="0.5" original-source="C:\Users\Coty\Pictures\flecha-roja.png">
+                        <collision-poly>
+                            <point x="0.138824" y="0.35119" />
+                            <point x="0.865882" y="0.339286" />
+                            <point x="0.976471" y="0.5" />
+                            <point x="0.875294" y="0.684524" />
+                            <point x="0.498824" y="0.630952" />
+                            <point x="0.00470588" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flecha5" sid="9685038657249968">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8235598675574966" speed="5">
+                    <frame duration="1" hotspotX="0.501176" hotspotY="0.5" original-source="C:\Users\Coty\Pictures\flecha-roja.png">
+                        <collision-poly>
+                            <point x="0.138824" y="0.35119" />
+                            <point x="0.865882" y="0.339286" />
+                            <point x="0.976471" y="0.5" />
+                            <point x="0.875294" y="0.684524" />
+                            <point x="0.498824" y="0.630952" />
+                            <point x="0.00470588" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flecha3" sid="87960386597463">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1043921898086481" speed="5">
+                    <frame duration="1" hotspotX="0.501176" hotspotY="0.5" original-source="C:\Users\Coty\Pictures\flecha-roja.png">
+                        <collision-poly>
+                            <point x="0.138824" y="0.35119" />
+                            <point x="0.865882" y="0.339286" />
+                            <point x="0.976471" y="0.5" />
+                            <point x="0.875294" y="0.684524" />
+                            <point x="0.498824" y="0.630952" />
+                            <point x="0.00470588" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
-        <layout>Layout 2.xml</layout>
+        <layout>pieza.xml</layout>
+        <layout>cocina.xml</layout>
         <layout>MainMenu.xml</layout>
+        <layout>pasillo.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>pieza.xml</event-sheet>
+        <event-sheet>cocina.xml</event-sheet>
         <event-sheet>Progress bar.xml</event-sheet>
-        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>main menu.xml</event-sheet>
+        <event-sheet>pasillo.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="13">

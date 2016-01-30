@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Layout 2</name>
-    <sid>5032320678067566</sid>
-    <event-sheet>Event sheet 2</event-sheet>
+    <name>pieza</name>
+    <sid>3070778579903715</sid>
+    <event-sheet>pieza</event-sheet>
     <size>
         <width>475</width>
         <height>318</height>
@@ -13,9 +13,9 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="3880962693466934">
+        <layer name="Background" sid="5381913631717891">
             <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
+            <background-color>204,255,255</background-color>
             <transparent>0</transparent>
             <parallax>
                 <x>1</x>
@@ -28,8 +28,26 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="Game" sid="9458683241510416">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TiledBackground2" uid="6">
+                <instance type="TiledBackground" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -37,11 +55,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-0.455276489</x>
-                        <y>-2.636978149</y>
+                        <x>-3</x>
+                        <y>-1</y>
                         <z>0</z>
-                        <width>474</width>
-                        <height>321</height>
+                        <width>477.541748047</width>
+                        <height>319.88848877</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -49,7 +67,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="flecha2" uid="8">
+                <instance type="barraDeSubtitulos" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -59,109 +77,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>46.696426392</x>
-                        <y>154.318664551</y>
+                        <x>235.831100464</x>
+                        <y>291.810333252</y>
                         <z>0</z>
-                        <width>72.272827148</width>
-                        <height>34.363845825</height>
+                        <width>426.05166626</width>
+                        <height>23.774169922</height>
                         <depth>0</depth>
-                        <hotspotX>0.501176476</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="tenedor" uid="9">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>368.282165527</x>
-                        <y>250.252105713</y>
-                        <z>0</z>
-                        <width>42.425701141</width>
-                        <height>22.244384766</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501144171</hotspotY>
-                        <angle>0.641076028</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="tenedor" uid="10">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>381.662780762</x>
-                        <y>247.780502319</y>
-                        <z>0</z>
-                        <width>42.425701141</width>
-                        <height>22.244384766</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501144171</hotspotY>
-                        <angle>0.753137708</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="cuchillo" uid="11">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <juntado>0</juntado>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>387.137145996</x>
-                        <y>243.903015137</y>
-                        <z>0</z>
-                        <width>51.76309967</width>
-                        <height>31.006437302</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501144171</hotspotY>
-                        <angle>0.775643945</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="ProgressBar" uid="12">
-                    <properties>
-                        <value>0</value>
-                        <maximum>100</maximum>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>23.836999893</x>
-                        <y>265.596008301</y>
-                        <z>0</z>
-                        <width>422.107421875</width>
-                        <height>8.930877686</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
-                <instance type="Text" uid="14">
+                <instance type="Text" uid="3">
                     <properties>
                         <text>Sangre!!!!!</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -176,8 +104,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>26.923000336</x>
-                        <y>285.49798584</y>
+                        <x>26.92326355</x>
+                        <y>285.498199463</y>
                         <z>0</z>
                         <width>414.645782471</width>
                         <height>30</height>
@@ -188,7 +116,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="barraDeSubtitulos" uid="15">
+                <instance type="zapatilla" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -198,19 +126,80 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>235.830993652</x>
-                        <y>291.809997559</y>
+                        <x>300.78338623</x>
+                        <y>182.260055542</y>
                         <z>0</z>
-                        <width>426.05166626</width>
-                        <height>23.774169922</height>
+                        <width>26.48626709</width>
+                        <height>16.862148285</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
+                        <hotspotX>0.507692337</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.222472847</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ProgressBar" uid="1">
+                    <properties>
+                        <value>0</value>
+                        <maximum>100</maximum>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <id-optional></id-optional>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>23.83656311</x>
+                        <y>265.596252441</y>
+                        <z>0</z>
+                        <width>422.107421875</width>
+                        <height>8.930877686</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="flecha" uid="7">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>420</x>
+                        <y>145</y>
+                        <z>0</z>
+                        <width>58.264465332</width>
+                        <height>30.832870483</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501176476</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>
+            <effects />
+        </layer>
+        <layer name="UI" sid="3732309420549906">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
             <effects />
         </layer>
     </layers>

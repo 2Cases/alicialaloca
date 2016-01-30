@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>pasillo</name>
+    <events>
+        <event-block sid="837219792412298">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8351587685149227" type="Touch">
+                    <param id="0" name="Object">flecha5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5427286426765502" type="System">
+                    <param id="0" name="Layout">pieza</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3119282622214761">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2762438635273616" type="Touch">
+                    <param id="0" name="Object">flecha4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5078550411708553" type="System">
+                    <param id="0" name="Layout">cocina</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

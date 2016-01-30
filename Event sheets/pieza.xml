@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Event sheet 1</name>
+    <name>pieza</name>
     <events>
         <include>Progress bar</include>
         <variable constant="0" name="locura" sid="6359509165610849" static="0" type="number">0</variable>
@@ -32,7 +32,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="4280062055961348" type="System">
-                    <param id="0" name="Layout">Layout 2</param>
+                    <param id="0" name="Layout">pasillo</param>
                 </action>
             </actions>
         </event-block>
