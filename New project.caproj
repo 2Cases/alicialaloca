@@ -252,6 +252,33 @@
         <object-type name="Text2" sid="7641658675892737">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite3" sid="3854894175083207">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8105350292640414" speed="5">
+                    <frame duration="1" hotspotX="0.501053" hotspotY="0.501587" original-source="C:\Users\Esteban\Desktop\baño2.bmp" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="7565801655234628">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1866051153476302" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501408" original-source="C:\Users\Esteban\Desktop\gallina.png">
+                        <collision-poly>
+                            <point x="0.102564" y="0.0901408" />
+                            <point x="0.5" y="0.357746" />
+                            <point x="0.823718" y="0.15493" />
+                            <point x="0.858974" y="0.498592" />
+                            <point x="0.724359" y="0.757746" />
+                            <point x="0.5" y="0.957747" />
+                            <point x="0.288462" y="0.746479" />
+                            <point x="0.0897436" y="0.498592" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -259,6 +286,7 @@
         <layout>cocina.xml</layout>
         <layout>MainMenu.xml</layout>
         <layout>pasillo.xml</layout>
+        <layout>banio.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>pieza.xml</event-sheet>
@@ -266,6 +294,7 @@
         <event-sheet>Progress bar.xml</event-sheet>
         <event-sheet>main menu.xml</event-sheet>
         <event-sheet>pasillo.xml</event-sheet>
+        <event-sheet>banio.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="13">

@@ -27,5 +27,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="7948674611284746">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8427808178925939" type="Touch">
+                    <param id="0" name="Object">flecha3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="203619960293702" type="System">
+                    <param id="0" name="Layout">banio</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
