@@ -15,5 +15,20 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="9855954214853012">
+            <conditions>
+                <condition id="3" name="On touched object" sid="5817953617689906" type="Touch">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7363665945760505" type="Audio">
+                    <param id="0" name="Audio file">gallina</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

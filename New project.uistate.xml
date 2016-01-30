@@ -11,9 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">pieza</layout>
-        <layout active="1" order="1">banio</layout>
+        <layout order="1">banio</layout>
         <layout order="2">pasillo</layout>
-        <event-sheet order="3">banio</event-sheet>
+        <event-sheet active="1" order="3">banio</event-sheet>
         <event-sheet order="4">pasillo</event-sheet>
     </open-tabs>
     <properties>
@@ -26,7 +26,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
@@ -46,5 +46,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/flecha3/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/vela/" />
+        <folder expanded="1" path="animation-folder/sal/" />
+        <folder expanded="1" path="animation-folder/patio/" />
+        <folder expanded="1" path="animation-folder/sangre/" />
     </folders-expanded>
 </c2uistate>
