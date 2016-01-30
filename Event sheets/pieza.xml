@@ -22,7 +22,6 @@
                 </action>
             </actions>
         </event-block>
-        <comment>If the pig falls outside the layout, destroy it, display game over text, then restart after 2 seconds.</comment>
         <comment>Make sure any boxes which fall off are also destroyed otherwise the player can&apos;t destroy all of them!</comment>
         <event-block sid="8814956481675534">
             <conditions>

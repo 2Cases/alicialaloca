@@ -11,14 +11,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">pieza</layout>
-        <layout order="2">cocina</layout>
-        <layout order="5">MainMenu</layout>
-        <layout active="1" order="7">pasillo</layout>
-        <event-sheet order="1">pieza</event-sheet>
-        <event-sheet order="3">cocina</event-sheet>
-        <event-sheet order="4">Progress bar</event-sheet>
-        <event-sheet order="6">main menu</event-sheet>
-        <event-sheet order="8">pasillo</event-sheet>
+        <event-sheet active="1" order="1">pieza</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

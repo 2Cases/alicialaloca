@@ -249,6 +249,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text2" sid="7641658675892737">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

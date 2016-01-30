@@ -91,7 +91,7 @@
                 </instance>
                 <instance type="Text" uid="3">
                     <properties>
-                        <text>Sangre!!!!!</text>
+                        <text>6 am. : Me desperté, necesito hacer... eso... antes de que mi ansiedad esté al limite!!</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-11,400,0</font>
                         <color>255,255,255</color>
@@ -107,8 +107,8 @@
                         <x>26.92326355</x>
                         <y>285.498199463</y>
                         <z>0</z>
-                        <width>414.645782471</width>
-                        <height>30</height>
+                        <width>431.451324463</width>
+                        <height>15.485961914</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -150,10 +150,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>23.83656311</x>
-                        <y>265.596252441</y>
+                        <y>259.485412598</y>
                         <z>0</z>
-                        <width>422.107421875</width>
-                        <height>8.930877686</height>
+                        <width>422.106994629</width>
+                        <height>16.569824219</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -199,7 +199,35 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="Text2" uid="23">
+                    <properties>
+                        <text>Nivel de ansiedad</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-13,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>23.849838257</x>
+                        <y>259.43170166</y>
+                        <z>0</z>
+                        <width>146.528198242</width>
+                        <height>17.014465332</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
     </layers>
