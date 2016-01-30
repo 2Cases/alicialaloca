@@ -58,8 +58,8 @@
                         <x>-3</x>
                         <y>-1</y>
                         <z>0</z>
-                        <width>489</width>
-                        <height>326</height>
+                        <width>477.541748047</width>
+                        <height>319.88848877</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -67,7 +67,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="2">
+                <instance type="barraDeSubtitulos" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -116,7 +116,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="4">
+                <instance type="zapatilla" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

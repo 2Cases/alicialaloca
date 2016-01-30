@@ -20,11 +20,11 @@
         <event-block sid="7484047989077749">
             <conditions>
                 <condition id="3" name="On touched object" sid="9022926977715698" type="Touch">
-                    <param id="0" name="Object">Sprite5</param>
+                    <param id="0" name="Object">cuchillo</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="941215442042063" type="Sprite5" />
+                <action id="-9" name="Destroy" sid="941215442042063" type="cuchillo" />
                 <action id="-9" name="Set value" sid="3283593930569799" type="System">
                     <param id="0" name="Variable">junto_cuchillo</param>
                     <param id="1" name="Value">1</param>
@@ -41,7 +41,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="1997478994834262" type="Sprite5" />
+                <action id="-9" name="Destroy" sid="1997478994834262" type="cuchillo" />
             </actions>
         </event-block>
         <comment></comment>

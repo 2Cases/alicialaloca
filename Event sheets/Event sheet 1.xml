@@ -9,7 +9,7 @@
         <event-block sid="8503292089574656">
             <conditions>
                 <condition id="3" name="On touched object" sid="996955467128776" type="Touch">
-                    <param id="0" name="Object">Sprite4</param>
+                    <param id="0" name="Object">zapatilla</param>
                 </condition>
             </conditions>
             <actions>

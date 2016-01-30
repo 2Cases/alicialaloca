@@ -53,7 +53,7 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Esteban\Pictures\51838_foto_43209.bmp" />
         </object-type>
-        <object-type name="Sprite2" sid="8364454940754101">
+        <object-type name="barraDeSubtitulos" sid="8364454940754101">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8839482782300474" speed="5">
@@ -61,7 +61,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite4" sid="7219173727769223">
+        <object-type name="zapatilla" sid="7219173727769223">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3471921911701322" speed="5">
@@ -124,7 +124,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="2160373729529561">
+        <object-type name="encendedor" sid="2160373729529561">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6787143197697371" speed="5">
@@ -132,7 +132,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="3359166948367806">
+        <object-type name="tenedor" sid="3359166948367806">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="808341442252971" speed="5">
@@ -151,7 +151,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite5" sid="3162990433572518">
+        <object-type name="cuchillo" sid="3162990433572518">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="juntado" sid="9307826242386319" type="number" />
@@ -171,7 +171,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite6" sid="8985697113741183">
+        <object-type name="pantallaPrincipal" sid="8985697113741183">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3100083803064644" speed="5">
