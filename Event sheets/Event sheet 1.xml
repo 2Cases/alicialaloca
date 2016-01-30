@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <include>Progress bar</include>
+        <variable constant="0" name="juntar_zapatilla" sid="533611064223096" static="0" type="number">0</variable>
+        <variable constant="0" name="locura" sid="6359509165610849" static="0" type="number">0</variable>
+        <comment>Destroy boxes when touching them.</comment>
+        <event-block sid="8503292089574656">
+            <conditions>
+                <condition id="3" name="On touched object" sid="996955467128776" type="Touch">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="4100235672852217" type="Text">
+                    <param id="0" name="Text">&quot;Encontré esta maldita zapartilla, no veo la hora de matar chanchos&quot;</param>
+                </action>
+                <action id="-11" name="Subtract from" sid="529365700497819" type="System">
+                    <param id="0" name="Variable">locura</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-9" name="Destroy" sid="1006770085840753" type="Sprite4" />
+                <action id="-9" name="Set value" sid="6440328317452655" type="System">
+                    <param id="0" name="Variable">juntar_zapatilla</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Make sure any boxes which fall off are also destroyed otherwise the player can&apos;t destroy all of them!</comment>
+        <event-block sid="8814956481675534">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1610691145856185" type="Touch">
+                    <param id="0" name="Object">flecha</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4280062055961348" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4952056302604951">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8173340472299896" type="System" />
+                <condition id="-14" name="Compare variable" sid="3642798829428099" type="System">
+                    <param id="0" name="Variable">juntar_zapatilla</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5430650646329184" type="Sprite4" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

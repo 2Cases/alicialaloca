@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>1uv7qb9av4sne</unique-id>
+    <saved-with-version>22100</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>470</width>
+        <height>315</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">No</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">iPhone only</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Text" sid="6309260606445014">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Touch" sid="9664475903041198">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="TiledBackground" sid="667833137988168">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Esteban\Pictures\51838_foto_43209.bmp" />
+        </object-type>
+        <object-type name="Sprite2" sid="8364454940754101">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8839482782300474" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="7219173727769223">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3471921911701322" speed="5">
+                    <frame duration="1" hotspotX="0.507692" hotspotY="0.5" original-source="C:\Users\Esteban\Pictures\zapatilla-futbol-sala-hummel-indoor-blanco.png">
+                        <collision-poly>
+                            <point x="0.261538" y="0.386364" />
+                            <point x="0.5" y="0.109091" />
+                            <point x="0.858462" y="0.209091" />
+                            <point x="0.876923" y="0.5" />
+                            <point x="0.730769" y="0.602273" />
+                            <point x="0.5" y="0.806818" />
+                            <point x="0.0553846" y="0.918182" />
+                            <point x="0.204615" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ProgressBar" sid="951008274078346">
+            <plugin id="progressbar" />
+        </object-type>
+        <object-type name="progreso" sid="6987793102828385">
+            <plugin id="LocalStorage" />
+        </object-type>
+        <object-type name="TiledBackground2" sid="3489554032287222">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Coty\Pictures\CocinaBlanca-1-a.bmp" />
+        </object-type>
+        <object-type name="flecha" sid="5693709825732013">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8152491243418648" speed="5">
+                    <frame duration="1" hotspotX="0.501176" hotspotY="0.5" original-source="C:\Users\Coty\Pictures\flecha-roja.png">
+                        <collision-poly>
+                            <point x="0.138824" y="0.35119" />
+                            <point x="0.865882" y="0.339286" />
+                            <point x="0.976471" y="0.5" />
+                            <point x="0.875294" y="0.684524" />
+                            <point x="0.498824" y="0.630952" />
+                            <point x="0.00470588" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flecha2" sid="10721897639387">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3869974150637865" speed="5">
+                    <frame duration="1" hotspotX="0.501176" hotspotY="0.5" original-source="C:\Users\Coty\Pictures\flecha-roja.png">
+                        <collision-poly>
+                            <point x="0.995294" y="0.5" />
+                            <point x="0.501176" y="0.630952" />
+                            <point x="0.124706" y="0.684524" />
+                            <point x="0.0235294" y="0.5" />
+                            <point x="0.134118" y="0.339286" />
+                            <point x="0.861176" y="0.35119" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="2160373729529561">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6787143197697371" speed="5">
+                    <frame duration="1" hotspotX="0.502262" hotspotY="0.5" original-source="C:\Users\Coty\Pictures\j38-standard-05-2012.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="3359166948367806">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="808341442252971" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501144" original-source="C:\Users\Coty\Pictures\556100.png">
+                        <collision-poly>
+                            <point x="0.172727" y="0.391304" />
+                            <point x="0.5" y="0.450801" />
+                            <point x="0.824242" y="0.398169" />
+                            <point x="0.981818" y="0.498856" />
+                            <point x="0.791919" y="0.528604" />
+                            <point x="0.5" y="0.508009" />
+                            <point x="0.164646" y="0.627002" />
+                            <point x="0.0151515" y="0.498856" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="3162990433572518">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="juntado" sid="9307826242386319" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5060029935803274" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501144" original-source="C:\Users\Coty\Pictures\100600.png">
+                        <collision-poly>
+                            <point x="0.180808" y="0.409611" />
+                            <point x="0.826263" y="0.393593" />
+                            <point x="0.975758" y="0.498856" />
+                            <point x="0.812121" y="0.574371" />
+                            <point x="0.19899" y="0.549199" />
+                            <point x="0.0848485" y="0.498856" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Progress bar.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="13">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="progreso" uid="5" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
