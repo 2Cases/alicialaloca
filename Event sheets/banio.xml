@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>banio</name>
     <events>
+        <include>Progress bar</include>
         <event-block sid="2723999032778735">
             <conditions>
                 <condition id="3" name="On touched object" sid="7931617602386365" type="Touch">
