@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>pasillo</name>
     <events>
+        <include>fadeEvent</include>
         <include>Progress bar</include>
         <event-block sid="837219792412298">
             <conditions>

@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>cocina</name>
     <events>
+        <include>fadeEvent</include>
         <variable constant="0" name="junto_cuchillo" sid="9321300682183163" static="0" type="number">0</variable>
         <include>Progress bar</include>
         <event-block sid="9663245732745617">

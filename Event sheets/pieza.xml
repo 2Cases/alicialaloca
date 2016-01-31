@@ -3,8 +3,9 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>pieza</name>
     <events>
-        <variable constant="0" name="junto_zapatilla" sid="2865163770532902" static="0" type="number">0</variable>
+        <include>fadeEvent</include>
         <include>Progress bar</include>
+        <variable constant="0" name="junto_zapatilla" sid="2865163770532902" static="0" type="number">0</variable>
         <variable constant="0" name="locura" sid="6359509165610849" static="0" type="number">0</variable>
         <comment>Destroy boxes when touching them.</comment>
         <event-block sid="8503292089574656">

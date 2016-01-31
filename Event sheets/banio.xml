@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>banio</name>
     <events>
+        <include>fadeEvent</include>
         <include>Progress bar</include>
         <event-block sid="2723999032778735">
             <conditions>

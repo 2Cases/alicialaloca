@@ -19,7 +19,9 @@
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -336,6 +338,22 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Button" sid="6205610165609587">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="fadeNegro" sid="8580668762751817">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="4591792326447956">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213433032988107" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -352,6 +370,7 @@
         <event-sheet>main menu.xml</event-sheet>
         <event-sheet>pasillo.xml</event-sheet>
         <event-sheet>banio.xml</event-sheet>
+        <event-sheet>fadeEvent.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="13">
