@@ -381,14 +381,37 @@
                     <behavior id="Fade" />
                 </behavior-type>
             </behaviors>
+            <container>
+                <type>carta</type>
+                <type>botonCerrarCarta</type>
+            </container>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4575407480932199" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501661" original-source="C:\Users\marcos\Desktop\La loca alicia\git-alicia\carta.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501661" original-source="C:\Users\marcos\Desktop\La loca alicia\git-alicia\carta.png">
+                        <image-point name="Imagepoint 1" x="0.937158" y="0.0598007" />
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="cerrarCarta" sid="9293401778032363">
             <plugin id="Button" />
+        </object-type>
+        <object-type name="botonCerrarCarta" sid="4025517691183513">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="3716458134541654">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>carta</type>
+                <type>botonCerrarCarta</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4310000575924111" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

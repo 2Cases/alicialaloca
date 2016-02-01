@@ -70,17 +70,29 @@
                 <action id="0" name="Set text" sid="3976399873841447" type="Dialogos">
                     <param id="0" name="Text">&quot;Que es esto? una carta misteriosa...&quot;</param>
                 </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="9631059574550762" type="carta" />
+                <action behavior="Fade" id="0" name="Restart fade" sid="9631059574550762" type="carta" />
+                <action id="-4" name="Set position to another object" sid="6751575916964608" type="botonCerrarCarta">
+                    <param id="0" name="Object">carta</param>
+                    <param id="1" name="Image point (optional)">1</param>
+                </action>
+                <action behavior="Fade" id="0" name="Restart fade" sid="3663760637546413" type="botonCerrarCarta" />
             </actions>
         </event-block>
         <event-block sid="3169614453670559">
             <conditions>
                 <condition id="3" name="On touched object" sid="9699178661466896" type="Touch">
-                    <param id="0" name="Object">carta</param>
+                    <param id="0" name="Object">botonCerrarCarta</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="4590901937299114" type="carta" />
+                <action id="-3" name="Set position" sid="4590901937299114" type="carta">
+                    <param id="0" name="X">-500</param>
+                    <param id="1" name="Y">-500</param>
+                </action>
+                <action id="-3" name="Set position" sid="1441006169454479" type="botonCerrarCarta">
+                    <param id="0" name="X">-500</param>
+                    <param id="1" name="Y">-500</param>
+                </action>
             </actions>
         </event-block>
     </events>
