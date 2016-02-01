@@ -77,11 +77,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>235.831100464</x>
-                        <y>291.810333252</y>
+                        <x>217.038711548</x>
+                        <y>428.670288086</y>
                         <z>0</z>
                         <width>426.05166626</width>
-                        <height>23.774169922</height>
+                        <height>44.200164795</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -89,7 +89,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="3">
+                <instance type="Dialogos" uid="3">
                     <properties>
                         <text>6 am. : Me desperté, necesito hacer... eso... antes de que mi ansiedad esté al limite!!</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -104,11 +104,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>26.92326355</x>
-                        <y>285.498199463</y>
+                        <x>8.94770813</x>
+                        <y>413.778106689</y>
                         <z>0</z>
-                        <width>431.451324463</width>
-                        <height>15.485961914</height>
+                        <width>420.012176514</width>
+                        <height>32.644104004</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -181,6 +181,61 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="nota" uid="33">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>216.180557251</x>
+                        <y>209.775741577</y>
+                        <z>0</z>
+                        <width>12.405165672</width>
+                        <height>17.487733841</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.935506821</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="carta" uid="34">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Fade">
+                            <properties>
+                                <active-at-start>No</active-at-start>
+                                <fade-in-time>1</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>0</fade-out-time>
+                                <destroy>No</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>537.36541748</x>
+                        <y>467.20010376</y>
+                        <z>0</z>
+                        <width>307.988037109</width>
+                        <height>235.63482666</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.501661122</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -231,6 +286,14 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances />
+    <nonworld-instances>
+        <instance type="aDialogos" uid="31">
+            <properties>
+                <width>0</width>
+                <height>1</height>
+                <depth>1</depth>
+            </properties>
+        </instance>
+    </nonworld-instances>
     <effects />
 </c2layout>

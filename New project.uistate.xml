@@ -10,15 +10,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="2">MainMenu</layout>
+        <layout order="7">MainMenu</layout>
         <layout order="6">cocina</layout>
-        <layout order="7">pieza</layout>
+        <layout active="1" order="2">pieza</layout>
         <event-sheet order="0">cocina</event-sheet>
         <event-sheet order="1">pieza</event-sheet>
         <event-sheet order="3">Progress bar</event-sheet>
         <event-sheet order="4">banio</event-sheet>
         <event-sheet order="5">pasillo</event-sheet>
         <event-sheet order="8">fadeEvent</event-sheet>
+        <event-sheet order="9">dialogosEvent</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -55,5 +56,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/patio/" />
         <folder expanded="1" path="animation-folder/sangre/" />
         <folder expanded="1" path="animation-folder/fadeNegro/" />
+        <folder expanded="1" path="animation-folder/nota/" />
+        <folder expanded="1" path="animation-folder/carta/" />
     </folders-expanded>
 </c2uistate>

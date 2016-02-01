@@ -34,7 +34,7 @@
                     <param id="0" name="Variable">locura</param>
                     <param id="1" name="Value">10</param>
                 </action>
-                <action id="0" name="Set text" sid="856583988031993" type="Text">
+                <action id="0" name="Set text" sid="856583988031993" type="Dialogos">
                     <param id="0" name="Text">&quot;Un cuchillo...&quot;</param>
                 </action>
             </actions>

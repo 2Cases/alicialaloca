@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>pieza</name>
     <events>
+        <include>dialogosEvent</include>
         <include>fadeEvent</include>
         <include>Progress bar</include>
         <variable constant="0" name="junto_zapatilla" sid="2865163770532902" static="0" type="number">0</variable>
@@ -15,7 +16,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="4100235672852217" type="Text">
+                <action id="0" name="Set text" sid="4100235672852217" type="Dialogos">
                     <param id="0" name="Text">&quot;Encontré esta maldita zapartilla, no veo la hora de matar chanchos&quot;</param>
                 </action>
                 <action id="-11" name="Subtract from" sid="529365700497819" type="System">
@@ -53,6 +54,33 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="9164893388200878" type="zapatilla" />
+            </actions>
+        </event-block>
+        <event-block sid="5730636050466442">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8134699173779433" type="Touch">
+                    <param id="0" name="Object">nota</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="4309314076035564" type="carta">
+                    <param id="0" name="X">LayoutWidth/2</param>
+                    <param id="1" name="Y">LayoutHeight/2</param>
+                </action>
+                <action id="0" name="Set text" sid="3976399873841447" type="Dialogos">
+                    <param id="0" name="Text">&quot;Que es esto? una carta misteriosa...&quot;</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="9631059574550762" type="carta" />
+            </actions>
+        </event-block>
+        <event-block sid="3169614453670559">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9699178661466896" type="Touch">
+                    <param id="0" name="Object">carta</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4590901937299114" type="carta" />
             </actions>
         </event-block>
     </events>

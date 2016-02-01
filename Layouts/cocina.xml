@@ -161,7 +161,7 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="Text" uid="14">
+                <instance type="Dialogos" uid="14">
                     <properties>
                         <text>Sangre!!!!!</text>
                         <initial-visibility>Visible</initial-visibility>

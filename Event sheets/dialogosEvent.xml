@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>dialogosEvent</name>
+    <events>
+        <variable constant="0" name="contadorDialogos" sid="1766036068979679" static="0" type="number">0</variable>
+        <event-block sid="2465091768247175">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2408308529499782" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Request URL" sid="7065761545642048" type="AJAX">
+                    <param id="0" name="Tag">LayoutName&amp;&quot;D&quot;</param>
+                    <param id="1" name="URL">LayoutName&amp;&quot;-dialogo.json&quot;</param>
+                </action>
+                <action id="-3" name="Create object" sid="8956008289575988" type="System">
+                    <param id="0" name="Object to create">barraDeSubtitulos</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">235.831</param>
+                    <param id="3" name="Y">291.81</param>
+                </action>
+                <action id="-3" name="Create object" sid="8797798472088633" type="System">
+                    <param id="0" name="Object to create">Dialogos</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">25.288</param>
+                    <param id="3" name="Y">277.864</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6698597290588425">
+            <conditions>
+                <condition id="0" name="On completed" sid="7815749913236614" type="AJAX">
+                    <param id="0" name="Tag">LayoutName&amp;&quot;D&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Load" sid="5812900850465187" type="aDialogos">
+                    <param id="0" name="JSON">AJAX.LastData</param>
+                </action>
+                <action id="0" name="Set text" sid="2443470834400319" type="Dialogos">
+                    <param id="0" name="Text">aDialogos.At(contadorDialogos)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7805649630293901">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="1671149445565545" type="Keyboard">
+                    <param id="0" name="Key">13 (Return)</param>
+                </condition>
+                <condition id="0" name="Compare at X" sid="223752545701313" type="aDialogos">
+                    <param id="0" name="X">contadorDialogos+1</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="7394155305147674" type="System">
+                    <param id="0" name="Variable">contadorDialogos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="3218802147216561" type="Dialogos">
+                    <param id="0" name="Text">aDialogos.At(contadorDialogos)</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
