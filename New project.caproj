@@ -24,6 +24,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -412,6 +413,14 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="EnterText" sid="3192072288789845">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Sine" sid="382036086927428">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
         </object-type>
     </object-folder>
     <families />

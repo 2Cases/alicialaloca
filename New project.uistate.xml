@@ -14,12 +14,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="6">cocina</layout>
         <layout order="2">pieza</layout>
         <event-sheet order="0">cocina</event-sheet>
-        <event-sheet active="1" order="1">pieza</event-sheet>
+        <event-sheet order="1">pieza</event-sheet>
         <event-sheet order="3">Progress bar</event-sheet>
         <event-sheet order="4">banio</event-sheet>
         <event-sheet order="5">pasillo</event-sheet>
         <event-sheet order="8">fadeEvent</event-sheet>
-        <event-sheet order="9">dialogosEvent</event-sheet>
+        <event-sheet active="1" order="9">dialogosEvent</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

@@ -25,6 +25,10 @@
                     <param id="2" name="X">25.288</param>
                     <param id="3" name="Y">277.864</param>
                 </action>
+                <action id="-3" name="Set position" sid="5571580261301001" type="EnterText">
+                    <param id="0" name="X">LayoutWidth/2-50</param>
+                    <param id="1" name="Y">20</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="6698597290588425">
